@@ -2,6 +2,9 @@ const body = document.querySelector('body');
 const navbar = document.querySelector('.navbar');
 const menuBtn = document.querySelector('.menu-btn');
 const cancelBtn = document.querySelector('.cancel-btn');
+const aboutMeNav = document.querySelector('#about-me-nav');
+const projectsNav = document.querySelector('#projects-nav');
+const footerNav = document.querySelector('#footer-nav');
 
 menuBtn.onclick = () => {
   navbar.classList.add('show');
@@ -9,6 +12,21 @@ menuBtn.onclick = () => {
   body.classList.add('disabled');
 };
 cancelBtn.onclick = () => {
+  body.classList.remove('disabled');
+  navbar.classList.remove('show');
+  menuBtn.classList.remove('hide');
+};
+aboutMeNav.onclick = () => {
+  body.classList.remove('disabled');
+  navbar.classList.remove('show');
+  menuBtn.classList.remove('hide');
+};
+projectsNav.onclick = () => {
+  body.classList.remove('disabled');
+  navbar.classList.remove('show');
+  menuBtn.classList.remove('hide');
+};
+footerNav.onclick = () => {
   body.classList.remove('disabled');
   navbar.classList.remove('show');
   menuBtn.classList.remove('hide');

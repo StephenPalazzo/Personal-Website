@@ -193,7 +193,7 @@ body {
       rgba(46, 49, 65, 0.8),
       rgba(46, 49, 65, 0.8)
     ),
-    url('../../images/bg.jpg');
+    url('../../images/BlackHole.png');
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -3200,7 +3200,7 @@ button:disabled,
   transition: all 0.3s ease;
 }
 .navbar.sticky {
-  background: #21232e;
+  background: #272a38;
   padding: 10px 0;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
@@ -3296,7 +3296,7 @@ button:disabled,
     display: block;
     padding: 40px 0;
     text-align: center;
-    background: #21232e;
+    background: #272a38;
     transition: all 0.3s ease;
   }
   .navbar.show .menu-list {
@@ -3421,7 +3421,7 @@ button:disabled,
         rgba(46, 49, 65, 0.8),
         rgba(46, 49, 65, 0.8)
       ),
-      url('../../images/bg.jpg');
+      url('../../images/BlackHole.png');
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
@@ -3530,7 +3530,7 @@ body.is-preload #banner p {
         rgba(46, 49, 65, 0.8),
         rgba(46, 49, 65, 0.8)
       ),
-      url('../../images/bg.jpg');
+      url('../../images/BlackHole.png');
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
@@ -4024,7 +4024,7 @@ body.is-preload #banner p {
         rgba(46, 49, 65, 0.8),
         rgba(46, 49, 65, 0.8)
       ),
-      url('../../images/bg.jpg');
+      url('../../images/BlackHole.png');
     background-size: auto, cover;
     background-position: center, center;
     margin-top: -6.5em;
