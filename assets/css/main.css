@@ -2769,6 +2769,7 @@ ul.icons li .icon:before {
 ul.contact {
   list-style: none;
   padding: 0;
+  display: block;
 }
 
 ul.contact li {
@@ -3174,6 +3175,7 @@ button:disabled,
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -3250,7 +3252,7 @@ button:disabled,
   padding-top: 20px;
   text-align: justify;
 }
-.icon {
+#navIcon {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -3280,10 +3282,10 @@ button:disabled,
   body.disabled {
     overflow: hidden;
   }
-  .icon {
+  #navIcon {
     display: block;
   }
-  .icon.hide {
+  #navIcon.hide {
     display: none;
   }
   .navbar .menu-list {
