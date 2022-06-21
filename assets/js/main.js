@@ -4,7 +4,7 @@ const menuBtn = document.querySelector('.menu-btn');
 const cancelBtn = document.querySelector('.cancel-btn');
 const aboutMeNav = document.querySelector('#about-me-nav');
 const projectsNav = document.querySelector('#projects-nav');
-const footerNav = document.querySelector('#footer-nav');
+const contactNav = document.querySelector('#contact-nav');
 
 menuBtn.onclick = () => {
   navbar.classList.add('show');
@@ -26,7 +26,7 @@ projectsNav.onclick = () => {
   navbar.classList.remove('show');
   menuBtn.classList.remove('hide');
 };
-footerNav.onclick = () => {
+contactNav.onclick = () => {
   body.classList.remove('disabled');
   navbar.classList.remove('show');
   menuBtn.classList.remove('hide');
