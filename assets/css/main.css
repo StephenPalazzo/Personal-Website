@@ -4091,3 +4091,19 @@ ul.contact li:first-child {
     padding: 2em 1.5em 0.1em 1.5em;
   }
 }
+
+/* Socials */
+
+.socials {
+  text-align: center;
+}
+
+#social-icon {
+  margin: 20px;
+  display: inline;
+}
+
+#social-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
