@@ -57,3 +57,18 @@ window.onscroll = () => {
     }, 100);
   });
 })(jQuery);
+
+// Copy Email
+function copyEmail() {
+  const email = 'stephencpalazzo@bellsouth.net';
+
+  navigator.clipboard.writeText(email);
+
+  var copyAlertEmail = document.getElementById('copy-alert-email');
+  copyAlertEmail.innerHTML = 'Copied!';
+}
+
+function copyAlert() {
+  var copyAlertEmail = document.getElementById('copy-alert-email');
+  copyAlertEmail.innerHTML = 'Copy to clipboard';
+}
