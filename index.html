@@ -35,6 +35,16 @@
         </div>
       </nav>
 
+      <!-- Socials Bar -->
+      <ul class="socials">
+        <a id="social-icon" class="icon solid fa-envelope fa-2x" onclick="copyEmail()" onmouseout="copyAlert()">
+          <span class="copy-alert-text" id="copy-alert-email">Copy to clipboard</span>
+        </a>
+        <a id="social-icon" class="icon brands fa-linkedin fa-2x" href="https://www.linkedin.com/in/stephenpalazzo" target="_blank" rel="noopener" rel="noreferrer"></a>
+        <a id="social-icon" class="icon brands fa-github fa-2x" href="https://github.com/StephenPalazzo" target="_blank" rel="noopener" rel="noreferrer"></a>
+        <a id="social-icon" class="icon brands fa-twitter fa-2x" href="https://twitter.com/StephenPalazzo7" target="_blank" rel="noopener" rel="noreferrer"></a>
+      </ul>
+
       <!-- Home -->
       <section id="home">
         <div class="inner">
@@ -59,15 +69,6 @@
             <p>
              Under Construction!
             </p>
-
-            <ul class="socials">
-              <a id="social-icon" class="icon solid fa-envelope fa-2x" onclick="copyEmail()" onmouseout="copyAlert()">
-                <span class="copy-alert-text" id="copy-alert-email">Copy to clipboard</span>
-              </a>
-              <a id="social-icon" class="icon brands fa-linkedin fa-2x" href="https://www.linkedin.com/in/stephenpalazzo" target="_blank" rel="noopener" rel="noreferrer"></a>
-              <a id="social-icon" class="icon brands fa-github fa-2x" href="https://github.com/StephenPalazzo" target="_blank" rel="noopener" rel="noreferrer"></a>
-              <a id="social-icon" class="icon brands fa-twitter fa-2x" href="https://twitter.com/StephenPalazzo7" target="_blank" rel="noopener" rel="noreferrer"></a>
-            </ul>
           </div>
       </section>
 
@@ -123,14 +124,10 @@
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener" rel="noreferrer" class="image"
                 ><img src="images/BlackHole.png" alt=""
               /></a>
-              <h3 class="major">WEB 3.0 App</h3>
+              <h3 class="major">Pathfinder Visualizer</h3>
               <p>
-                The WEB 3.0 APP is a revolutionary concept leveraging blockchain technology and machine learning.
+                A website to help visualize Dijkstra vs A* algorithm. Coming Soon!
               </p>
-              <ul class="actions small">
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener" rel="noreferrer" class="button primary small">Live Site</a></li>
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener" rel="noreferrer" class="button small">Source Code</a></li>
-              </ul>
             </article>
           </section>
         </div>
@@ -172,7 +169,7 @@
             <li class="icon solid fa-home">Atlanta, Georgia</li>
             <li class="icon solid fa-phone">(404) 317-2434</li>
             <li class="icon solid fa-envelope">
-              <a onclick="CopyToClipboard('email');return false;"><p id="email">stephencpalazzo@gmail.com</p></a>
+              <a onclick="copyEmail()" style="cursor: pointer;">stephencpalazzo@gmail.com</a>
             </li>
             <li class="icon brands fa-linkedin">
               <a href="https://www.linkedin.com/in/stephenpalazzo" target="_blank" rel="noopener" rel="noreferrer">Linkedin.com/in/stephenpalazzo</a>

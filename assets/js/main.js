@@ -60,7 +60,7 @@ window.onscroll = () => {
 
 // Copy Email
 function copyEmail() {
-  const email = 'stephencpalazzo@bellsouth.net';
+  const email = 'stephencpalazzo@gmail.com';
 
   navigator.clipboard.writeText(email);
 

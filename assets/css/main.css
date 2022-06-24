@@ -3907,7 +3907,7 @@ ul.contact {
 
 ul.contact li {
   text-decoration: none;
-  margin: 2.5em 0 0 0;
+  margin: 2em;
   padding: 0 0 0 3.25em;
   position: relative;
 }
@@ -3937,10 +3937,6 @@ ul.contact li:before {
   text-align: center;
   top: 0;
   width: 2.5em;
-}
-
-ul.contact li:first-child {
-  margin-top: 0;
 }
 
 @media screen and (max-width: 736px) {
@@ -3980,6 +3976,7 @@ ul.contact li:first-child {
 
 #contact .inner .contact {
   width: calc(50% - 1.5em);
+  visibility: hidden;
 }
 
 #contact .inner .copyright {
@@ -4024,6 +4021,9 @@ ul.contact li:first-child {
     background-position: center, center;
     margin-top: -6.5em;
     padding-top: 6.5em;
+  }
+  #contact .inner .contact {
+    visibility: visible;
   }
 }
 
@@ -4092,20 +4092,35 @@ ul.contact li:first-child {
   }
 }
 
-/* Socials */
+/* Social Bar */
 
 .socials {
+  position: fixed;
+  top: 20%;
+  left: 90%;
+  z-index: 1;
+  display: block;
+  font-size: x-large;
+  background-color: #272a38;
+  border-radius: 20px;
   text-align: center;
+  padding: 0;
 }
 
 #social-icon {
-  margin: 20px;
-  display: inline;
+  margin: 30px;
+  display: block;
 }
 
 #social-icon:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+@media screen and (max-width: 1280px) {
+  .socials {
+    visibility: hidden;
+  }
 }
 
 /* Email Copy */
