@@ -3058,6 +3058,17 @@ button:disabled,
   border-radius: 5px;
   margin: 1.5em 3em 1.5em 0;
   width: calc(50% - 1.5em);
+  box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.features article:hover {
+  padding: 1.75em 1.75em 0.1em 1.75em;
+  background-color: #353849;
+  border-radius: 5px;
+  margin: 1.5em 3em 1.5em 0;
+  width: calc(50% - 1.5em);
+  box-shadow: 0 4px 12px 0 rgb(0, 0, 0, 0.5);
 }
 
 .features article:nth-child(2n) {
@@ -3611,7 +3622,7 @@ button:disabled,
 .navbar.sticky {
   background: #272a38;
   padding: 10px 0;
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
 }
 .navbar .content {
   display: flex;
@@ -4102,6 +4113,7 @@ ul.contact li:before {
   display: block;
   font-size: x-large;
   background-color: #272a38;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   text-align: center;
   padding: 0;
