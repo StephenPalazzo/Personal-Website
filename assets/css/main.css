@@ -3727,6 +3727,9 @@ button:disabled,
   .navbar.show .menu-list li a {
     margin-left: 0px;
   }
+  .navbar .content .logo {
+    display: none;
+  }
 }
 @media (max-width: 380px) {
   .navbar .logo a {
