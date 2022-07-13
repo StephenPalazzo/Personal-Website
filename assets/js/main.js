@@ -37,6 +37,21 @@ window.onscroll = () => {
     : navbar.classList.remove('sticky');
 };
 
+// Copy Email
+function copyEmail() {
+  const email = 'stephencpalazzo@gmail.com';
+
+  navigator.clipboard.writeText(email);
+
+  var copyAlertEmail = document.getElementById('copy-alert-email');
+  copyAlertEmail.innerHTML = 'Copied!';
+}
+
+function copyAlert() {
+  var copyAlertEmail = document.getElementById('copy-alert-email');
+  copyAlertEmail.innerHTML = 'Copy to clipboard';
+}
+
 (function ($) {
   var $window = $(window),
     $body = $('body');
@@ -57,18 +72,3 @@ window.onscroll = () => {
     }, 100);
   });
 })(jQuery);
-
-// Copy Email
-function copyEmail() {
-  const email = 'stephencpalazzo@gmail.com';
-
-  navigator.clipboard.writeText(email);
-
-  var copyAlertEmail = document.getElementById('copy-alert-email');
-  copyAlertEmail.innerHTML = 'Copied!';
-}
-
-function copyAlert() {
-  var copyAlertEmail = document.getElementById('copy-alert-email');
-  copyAlertEmail.innerHTML = 'Copy to clipboard';
-}
