@@ -33,6 +33,6 @@ This repository is my personal website/portfolio. Made with the Solid State HTML
 ## Author Info
 
 - LinkedIn - [@StephenPalazzo](https://www.linkedin.com/in/stephenpalazzo)
-- Website - [Stephen Palazzo](https://stephenpalazzo.com)
+- Website - [Stephen Palazzo](https://stephenpalazzo.dev)
 
 [Back To The Top](#Personal-Website)
